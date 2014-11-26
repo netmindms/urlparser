@@ -16,10 +16,10 @@ Functionality:
 Usage:
 ------
 ```
-  ...
-  string s = "http://www.google.co.kr/path1/path2/file.html";
-  EdUrlParser* url = EdUrlParser::parseUrl(s);
-  ...
+    ...
+    string s = "http://www.google.co.kr/path1/path2/file.html";
+    EdUrlParser* url = EdUrlParser::parseUrl(s);
+    ...
 ```
 
 Refer to example for detail information.
