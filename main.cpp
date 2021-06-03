@@ -12,8 +12,8 @@
 
 using namespace std;
 
-int main() {
-	string s = "http://user:pass@www.google.co.kr:8080/testurl/depth1/depth2/depth3/file.ext?name=james&id=100#here";
+int main(int, char**) {
+	string s = "http://user:pass@www.meatloaf.cc:8080/testurl/depth1/depth2/depth3/file.ext?name=idolpx&id=100#here";
 
 	// parse and allocate url object.
 	EdUrlParser* url = EdUrlParser::parseUrl(s);

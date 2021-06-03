@@ -7,15 +7,16 @@ This is an url parser for C++.
 
 Functionality:
 --------------
+
 - URL parsing
 - URL encoding/decoding
 - query parsing
 - path parsing
 
-
 Usage:
 ------
-```
+
+``` C++
     ...
     string s = "http://www.google.co.kr/path1/path2/file.html";
     EdUrlParser* url = EdUrlParser::parseUrl(s);
@@ -23,4 +24,3 @@ Usage:
 ```
 
 Refer to example for detail information.
-

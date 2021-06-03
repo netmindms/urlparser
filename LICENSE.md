@@ -1,6 +1,8 @@
-The MIT License (MIT)
+# The MIT License (MIT)
 
-Copyright (c) 2015 blake kim
+Copyright (c) 2014 Blake Kim, [https://github.com/netmindms/urlparser]<br/>
+Copyright (c) 2021 James Johnston, [https://github.com/idolpx/urlparser]<br/>
+All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
