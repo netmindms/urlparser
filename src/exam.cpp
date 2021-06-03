@@ -1,11 +1,6 @@
-//============================================================================
-// Name        : exam.cpp
-// Author      : netmindms
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
-
+//
+// EdUrlParser Example
+//
 
 #include <stdio.h>
 #include <stdexcept>
@@ -18,16 +13,22 @@
 using namespace std;
 
 int main() {
-	string s =
-			"http://www.google.co.kr:8080/testurl/depth1/depth2/depth3?name=james&id=100";
+	string s = "http://user:pass@www.google.co.kr:8080/testurl/depth1/depth2/depth3/file.ext?name=james&id=100#here";
 
 	// parse and allocate url object.
 	EdUrlParser* url = EdUrlParser::parseUrl(s);
+	cout << "url: " + url->url << endl;
+	cout << "root: " + url->root << endl;
+	cout << "base: " + url->base << endl;
 	cout << "scheme: " + url->scheme << endl;
-	cout << "host name: " + url->hostName << endl;
+	cout << "username: " + url->username << endl;
+	cout << "password: " + url->password << endl;
+	cout << "host name: " + url->hostname << endl;
 	cout << "port: " + url->port << endl;
 	cout << "path: " + url->path << endl;
-	cout << "param: " + url->query << endl;
+	cout << "filename: " + url->filename << endl;
+	cout << "extension: " + url->extension << endl;
+	cout << "query: " + url->query << endl;
 	cout << "fragment: " + url->fragment << endl;
 
 	// parse path
